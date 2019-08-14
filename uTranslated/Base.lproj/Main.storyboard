@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="uTranslated" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MrW-ly-cVo">
+                                <rect key="frame" x="0.0" y="-16" width="375" height="794"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfM-Ei-iT1">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1094"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="5HO-UD-y23">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1094"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo4" translatesAutoresizingMaskIntoConstraints="NO" id="z8p-dF-qBZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="251" id="Ris-d8-a0p"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxf-0M-R5G">
+                                                        <rect key="frame" x="0.0" y="251" width="375" height="26"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="  WHAT WE DO">
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="19" name="STHeitiSC-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NF2-oP-o7K">
+                                                        <rect key="frame" x="0.0" y="277" width="375" height="162.33333333333337"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="162.33000000000001" id="tOG-Sf-O0R"/>
+                                                        </constraints>
+                                                        <string key="text">Frazier-Simplex, Inc. is able to offer full in-house expertise to design a turnkey glass tubing facility, offering expertise in quality needs as high as pharmaceuatical grade tubing.</string>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </label>
+                                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQo-vN-dre">
+                                                        <rect key="frame" x="0.0" y="439.33333333333331" width="375" height="90.999999999999943"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mp-UY-bRX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="675" height="91"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GL7-Gb-tzF">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="675" height="91"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="work1" translatesAutoresizingMaskIntoConstraints="NO" id="2cH-51-6Na">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="225" height="91"/>
+                                                                            </imageView>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="work2" translatesAutoresizingMaskIntoConstraints="NO" id="Neq-o8-mO7">
+                                                                                <rect key="frame" x="225" y="0.0" width="225" height="91"/>
+                                                                            </imageView>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="work3" translatesAutoresizingMaskIntoConstraints="NO" id="iqw-m9-wKp">
+                                                                                <rect key="frame" x="450" y="0.0" width="225" height="91"/>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="GL7-Gb-tzF" secondAttribute="bottom" id="2jM-bc-TM8"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="GL7-Gb-tzF" secondAttribute="trailing" id="Ycm-Yd-oPh"/>
+                                                                    <constraint firstItem="GL7-Gb-tzF" firstAttribute="top" secondItem="4mp-UY-bRX" secondAttribute="top" id="jCq-HY-gSI"/>
+                                                                    <constraint firstItem="GL7-Gb-tzF" firstAttribute="leading" secondItem="4mp-UY-bRX" secondAttribute="leading" id="nW5-PY-pEC"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="4mp-UY-bRX" firstAttribute="leading" secondItem="aQo-vN-dre" secondAttribute="leading" id="4Sr-OU-QBz"/>
+                                                            <constraint firstItem="4mp-UY-bRX" firstAttribute="centerX" secondItem="aQo-vN-dre" secondAttribute="centerX" constant="150" id="HhP-Qj-l7U"/>
+                                                            <constraint firstAttribute="trailing" secondItem="4mp-UY-bRX" secondAttribute="trailing" id="eYh-j1-Ahz"/>
+                                                            <constraint firstItem="4mp-UY-bRX" firstAttribute="centerY" secondItem="aQo-vN-dre" secondAttribute="centerY" id="m3i-Yz-7Fo"/>
+                                                            <constraint firstItem="4mp-UY-bRX" firstAttribute="top" secondItem="aQo-vN-dre" secondAttribute="top" id="pih-lf-gb9"/>
+                                                            <constraint firstAttribute="bottom" secondItem="4mp-UY-bRX" secondAttribute="bottom" id="uHx-Md-gKE"/>
+                                                        </constraints>
+                                                    </scrollView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJh-Ej-FFZ">
+                                                        <rect key="frame" x="0.0" y="530.33333333333337" width="375" height="27"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="27" id="ddr-p2-lCc"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="  CONTACT US">
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="19" name="STHeitiSC-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZa-4n-GL2">
+                                                        <rect key="frame" x="0.0" y="557.33333333333337" width="375" height="434"/>
+                                                        <subviews>
+                                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" mapType="mutedStandard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aOp-df-MQe">
+                                                                <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="434"/>
+                                                            </mapView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="436 E. BEAU ST. WASHINGTON, PA 15301  (P) (724) 225-1100 (F) 724-225-4429  https://www.frazier-simplex.com/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-QY-Cxv">
+                                                                <rect key="frame" x="187.66666666666663" y="0.0" width="187.33333333333337" height="434"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24M-qx-pft">
+                                                        <rect key="frame" x="0.0" y="991.33333333333337" width="375" height="26"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content=" 100 YEARS COMPANY">
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="19" name="STHeitiSC-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="100" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-7o-BQT">
+                                                        <rect key="frame" x="0.0" y="1017.3333333333334" width="375" height="76.666666666666629"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="5HO-UD-y23" secondAttribute="bottom" id="0Is-ZB-ATo"/>
+                                            <constraint firstAttribute="trailing" secondItem="5HO-UD-y23" secondAttribute="trailing" id="0oz-iY-yQW"/>
+                                            <constraint firstItem="5HO-UD-y23" firstAttribute="top" secondItem="SfM-Ei-iT1" secondAttribute="top" id="Hpt-h1-0bY"/>
+                                            <constraint firstItem="5HO-UD-y23" firstAttribute="leading" secondItem="SfM-Ei-iT1" secondAttribute="leading" id="MPa-aW-dSB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SfM-Ei-iT1" firstAttribute="leading" secondItem="MrW-ly-cVo" secondAttribute="leading" id="B4E-YL-QLB"/>
+                                    <constraint firstAttribute="trailing" secondItem="SfM-Ei-iT1" secondAttribute="trailing" id="BI7-gV-0sd"/>
+                                    <constraint firstItem="SfM-Ei-iT1" firstAttribute="top" secondItem="MrW-ly-cVo" secondAttribute="top" id="T1U-Kw-qEk"/>
+                                    <constraint firstItem="SfM-Ei-iT1" firstAttribute="centerY" secondItem="MrW-ly-cVo" secondAttribute="centerY" constant="150" id="Ued-9q-Mej"/>
+                                    <constraint firstItem="SfM-Ei-iT1" firstAttribute="centerX" secondItem="MrW-ly-cVo" secondAttribute="centerX" id="aqH-57-W6w"/>
+                                    <constraint firstAttribute="bottom" secondItem="SfM-Ei-iT1" secondAttribute="bottom" id="q0i-bY-Fsh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MrW-ly-cVo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0xR-rT-3dA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MrW-ly-cVo" secondAttribute="trailing" id="CRm-Bi-jhN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MrW-ly-cVo" secondAttribute="bottom" id="bM5-a0-fIW"/>
+                            <constraint firstItem="MrW-ly-cVo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hFS-2v-NBs"/>
+                            <constraint firstItem="MrW-ly-cVo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-60" id="qm1-Y1-F0q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="detailsContext" destination="NF2-oP-o7K" id="8f9-Je-vpk"/>
+                        <outlet property="mapView" destination="aOp-df-MQe" id="CQp-qf-oYx"/>
+                        <outlet property="scrollLength" destination="Ued-9q-Mej" id="ZYM-ee-kUB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="100" width="244" height="204.33332824707031"/>
+        <image name="logo4" width="250" height="140"/>
+        <image name="work1" width="147.33332824707031" height="86"/>
+        <image name="work2" width="147.33332824707031" height="86"/>
+        <image name="work3" width="147.33332824707031" height="86"/>
+    </resources>
+</document>
